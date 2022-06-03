@@ -1,9 +1,9 @@
 TED-Talk-Analysis
 
 
-  I've extracted 6 features for each TED Talk which you can find in this. 
+ I've extracted 6 features for each TED Talk which you can find in this. 
   
-  It includes EDA, Data Analysis, Tabular Data and Python.
+ It includes EDA, Data Analysis, Tabular Data and Python.
   
  
  Finding the most popular TED talks
