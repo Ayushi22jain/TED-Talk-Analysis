@@ -48,3 +48,21 @@ Implemented a functional search mechanism within the notebook that allows users 
 ## ⚙️ How to Run This Project
 
 1. **Clone the Repository:**
+
+2.Install Requirements:
+Ensure you have the following libraries installed:
+
+Bash
+pip install pandas matplotlib seaborn
+
+3.Execute the Analysis:
+
+Open ted_talk_analysis.ipynb in Jupyter Notebook or VS Code.
+
+Alternatively, upload the notebook and data.csv to Google Colab.
+
+Run all cells to generate the visualizations and metrics.
+
+👤 Author
+Ayushi Jain
+GitHub: @Ayushi22jain
