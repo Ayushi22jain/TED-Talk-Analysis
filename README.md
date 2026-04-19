@@ -1,58 +1,50 @@
-# TED Talk Analysis
-This repository contains a comprehensive Exploratory Data Analysis (EDA) and visualization of TED Talks. The project focuses on extracting meaningful insights from talk metadata, such as popularity trends, speaker frequency, and user engagement metrics using Python and Jupyter Notebooks.
+# 📊 TED Talk Analysis: Exploratory Data Analysis (EDA)
 
-## 📊 Features Extracted
-For every TED Talk in this dataset, the following 6 key features are analyzed:
+This project provides a comprehensive analysis of TED Talk data using Python. It explores viewership trends, speaker popularity, and audience engagement to understand what makes a TED talk successful.
 
-Speaker: Identification of the primary presenter.
+## 🧐 Project Objective
+The goal of this project is to perform **Exploratory Data Analysis (EDA)** on a dataset of TED talks to extract actionable insights. By calculating engagement metrics and visualizing temporal trends, we can identify patterns in how global audiences consume educational content.
 
-Views: Total viewership count.
+---
 
-Likes: Number of likes received.
+## 🚀 Detailed Workflow
 
-Date/Month/Year: Temporal data for trend analysis.
+### 1. Data Loading & Cleaning
+* **Environment Setup:** Utilized `Pandas` for data manipulation and `Matplotlib/Seaborn` for visualization.
+* **Feature Extraction:** Created new features from the raw data to enable deeper analysis:
+    * **Date Decomposition:** Split timestamps into `Day`, `Month`, and `Year`.
+    * **Engagement Ratio:** Calculated a "View-to-Like" ratio ($Views / Likes$) to identify which talks had the highest audience sentiment, rather than just raw volume.
 
-Tags: Topics associated with the talk (e.g., climate, technology).
+### 2. Exploratory Data Analysis (EDA)
+The analysis is broken down into five key areas:
+* **Speaker Analysis:** Identifying "Power Speakers" (those with the most frequent appearances) and calculating their cumulative reach.
+* **Temporal Trends:** * **Monthly Trends:** Which months see the most TED releases?
+    * **Yearly Growth:** How has the volume of TED content scaled over the last decade?
+* **Category/Tag Analysis:** Filtering talks by specific themes (e.g., Technology, Design, Climate) to see which topics dominate the platform.
+* **Engagement Metrics:** Ranking talks not just by views, but by the "Like" density to find the most impactful content.
 
-Engagement Ratio: A calculated "View-to-Like" ratio to measure audience sentiment.
+### 3. Search & Discovery Logic
+Implemented a functional search mechanism within the notebook that allows users to:
+* Search for all talks by a specific **Author**.
+* Filter talks by specific **Tags** or topics.
 
-## 🔍 Key Insights & Analysis
-The ted_talk_analysis.ipynb notebook explores:
-
-Speaker Popularity: Identifying speakers with the highest number of talks.
-
-Temporal Trends: Month-wise and Year-wise frequency analysis of TED Talk releases.
-
-Search Functionality: Finding talks based on specific Authors or Tags (e.g., "climate").
-
-Engagement Metrics: Discovering the most "loved" talks based on the best view-to-like ratios.
-
-Top Performers: Ranking speakers by their total cumulative views.
+---
 
 ## 🛠️ Tech Stack
-Language: Python
+* **Language:** Python
+* **Library (Data):** Pandas, NumPy
+* **Library (Viz):** Matplotlib, Seaborn
+* **Platform:** Google Colab / Jupyter Notebook
 
-Environment: Jupyter Notebook / Google Colab
-
-Libraries: Pandas, Matplotlib, Seaborn (for Data Analysis and Visualization)
+---
 
 ## 📁 Repository Structure
-data.csv: The raw dataset containing TED Talk records.
+* `ted_talk_analysis.ipynb`: The main execution script containing all logic and visualizations.
+* `data.csv`: The dataset containing metadata (Speaker, Views, Likes, Tags, etc.).
+* `README.md`: Project documentation.
 
-ted_talk_analysis.ipynb: The main notebook containing the Python code and visualizations.
+---
 
-README.md: Project documentation.
+## ⚙️ How to Run This Project
 
-## 🚀 How to Run
-Clone the repository:
-
-Bash
-git clone https://github.com/Ayushi22jain/TED-Talk-Analysis.git
-Ensure you have Python installed along with pandas and matplotlib.
-
-Open ted_talk_analysis.ipynb in Jupyter Notebook or upload it to Google Colab.
-
-## 👤 Author
-Ayushi Jain
-
-GitHub: @Ayushi22jain
+1. **Clone the Repository:**
