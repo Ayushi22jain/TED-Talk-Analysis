@@ -1,5 +1,7 @@
 # 📊 TED Talk Analysis: Exploratory Data Analysis (EDA)
 
+
+
 This project provides a comprehensive analysis of TED Talk data using Python. It explores viewership trends, speaker popularity, and audience engagement to understand what makes a TED talk successful.
 
 ## 🧐 Project Objective
